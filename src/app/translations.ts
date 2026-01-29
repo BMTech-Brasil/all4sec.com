@@ -81,7 +81,7 @@ export const TRANSLATIONS = {
 
   EN: {
     topbar: {
-      phone: '+1 (954) 901-9527',
+      phone: '+1 (954) 901-9638',
       support: 'All4Sec Support',
       portal: 'Partner Portal',
       validation: 'Validations'

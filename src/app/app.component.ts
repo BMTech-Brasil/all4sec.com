@@ -22,7 +22,7 @@ export class AppComponent {
     { code: 'ES', flagUrl: 'https://flagcdn.com/w40/es.png', name: 'Español' }
   ];
 
-  currentLang = this.languages[0];
+  currentLang = this.languages[1];
   isLangMenuOpen = false;
 
   toggleLangMenu() {

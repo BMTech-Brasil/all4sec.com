@@ -5,7 +5,7 @@ import { TRANSLATIONS } from './translations';
     providedIn: 'root'
 })
 export class TranslationService {
-    private currentLangCode = signal<'PT' | 'EN' | 'ES'>('PT');
+    private currentLangCode = signal<'PT' | 'EN' | 'ES'>('EN');
     public t = computed(() => TRANSLATIONS[this.currentLangCode()]);
 
     setLanguage(code: 'PT' | 'EN' | 'ES') {
