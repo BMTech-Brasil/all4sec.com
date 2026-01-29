@@ -8,25 +8,6 @@
           <a href="#">{{ t().topbar.portal }}</a>
           <a href="#">{{ t().topbar.validation }}</a>
         </div>
-  
-        <div class="lang-selector">
-          <button class="lang-btn" (click)="toggleLangMenu()">
-            <img [src]="currentLang.flagUrl" alt="Flag" class="flag-icon">
-            {{ currentLang.code }} 
-            <span class="arrow">▼</span>
-          </button>
-          
-          @if (isLangMenuOpen) {
-            <ul class="lang-dropdown">
-              @for (lang of languages; track lang.code) {
-                <li (click)="setLanguage(lang)">
-                  <img [src]="lang.flagUrl" alt="{{ lang.name }}" class="flag-icon"> 
-                  {{ lang.name }}
-                </li>
-              }
-            </ul>
-          }
-        </div>
       </div>
     </div>
   </div>
