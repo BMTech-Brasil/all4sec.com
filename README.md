@@ -26,6 +26,8 @@ Development server:
 npm start
 ```
 
+Access webpage through your local browser:
+
 ```text
 http://localhost:4200
 ```
