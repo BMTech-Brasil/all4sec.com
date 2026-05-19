@@ -9,13 +9,12 @@ Institutional website for All4Sec developed with Angular e Tailwind CSS.
 - Tailwind CSS
 - EmailJS
 
-
 ## Requirements
 
 - Node.js (LTS)
 - npm
 
-## Local
+## Locally
 
 ```bash
 npm install
